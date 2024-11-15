@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# Echoes the following tags:
+# - Python main version (3)
+# - Python minor version (like 3.11)
+# - Python full version (like 3.11.18)
+
+python3 --version | sed 's/Python //' | version-to-tags

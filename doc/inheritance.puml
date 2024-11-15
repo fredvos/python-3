@@ -1,0 +1,21 @@
+@startuml
+top to bottom direction
+
+object debian
+object "mokolo-org/atum" as atum
+object "mokolo-org/python" as python
+
+debian -> atum
+atum -> python
+
+debian : :bookworm-slim
+
+atum : :bookworm
+
+python : parent = mokolo-org/atum:bookworm
+python : :3
+python : :3.X
+python : :3.X.Y
+python : :YYYYMMDD-HHMISS
+python : :latest
+@enduml
