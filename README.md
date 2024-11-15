@@ -6,15 +6,16 @@ Base Docker image for Python3 projects
 
 ![Inheritance](doc/inheritance.png)
 
-Timestamp of creation and major version, minor version
-and full version are available as tags.
+Timestamp of creation and Python major version,
+minor version and full version
+are available as tags.
 
 Examples:
 
 - 20241110-183844
-- :3.11.2
-- :3.11
 - :3
+- :3.11
+- :3.11.2
 
 ## Build image
 
